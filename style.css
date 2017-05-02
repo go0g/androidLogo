@@ -1,1 +1,108 @@
-"" 
+div{
+    margin: 0;
+    padding: 0;
+}
+div div {
+    background: #A4CA39;
+    position: relative;
+}
+.android{
+    height: 404px;
+    width: 334px;
+    margin: 100px auto;
+}
+.head{
+    width: 220px;
+    height: 100px;
+    top: 32px;
+    border-radius: 110px 110px 0 0;
+}
+
+.sprechblase{
+    text-align: center; 
+    vertical-align: middle;
+    display:table-cell;
+    width: 100px;
+    height: 100px;
+    top: -30px;
+    right: -200px;
+    border-radius: 50px;
+    margin:0;
+}   
+
+.l_auge, .r_auge{
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 42px;
+    border-radius: 10px;     
+}
+.l_auge{left:50px;}
+.r_auge{right: 50px;}
+
+.l_ohr, .r_ohr{
+    width: 6px;
+    height: 50px;
+    position: absolute;
+    top: -34px;
+}
+
+.l_ohr{
+    left: 50px;
+    transform:rotate(-30deg);
+}
+
+.r_ohr{
+    right: 50px;
+    transform:rotate(30deg);
+}
+
+.body{
+    width: 220px;
+    height: 184px;
+    top:40px;
+    
+    border-radius: 0 0 25px 25px;
+}
+
+.l_arm, .r_arm, .l_bein, .r_bein{
+    width: 50px;
+    position:absolute;
+}
+.l_arm, .r_arm{
+    height: 150px;
+    border-radius: 25px;
+}
+
+.l_bein, .r_bein{
+    height: 80px;
+    top: 182px;
+    border-radius: 0 0 25px 25px;    
+} 
+.l_arm{
+    left: -58px;    
+}
+.r_arm{
+    right: -58px;
+}
+.l_bein{
+    left: 45px;
+    transform: rotate(5deg);
+}
+.r_bein{
+    right: 45px;
+    transform: rotate(-5deg);
+}
+
+.head:hover{
+    transform: rotate(-5deg) translate(-4px, -8px);
+}
+
+
+.l_arm:hover{
+    transform: rotate(15deg) translate(-14px, 0);    
+}
+.r_arm:hover{
+    transform:rotate(-15deg) translate(14px, 0);
+}
